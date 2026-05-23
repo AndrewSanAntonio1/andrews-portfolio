@@ -19,5 +19,7 @@ export const socialLinks = [
 export const contactInfo = {
   email: 'sgandrew290@gmail.com',
   phone: '09225678971',
-  location: 'Pasig City'
+  location: 'Pasig City',
+  fullAddress: 'Blk 23 Lot 16 & 17 Narra St, Mangga 3, Nagpayong, Pinagbuhatan, Pasig City',
+  mapUrl: 'https://www.google.com/maps/search/?api=1&query=Blk+23+Lot+16+%26+17+Narra+St%2C+Mangga+3%2C+Nagpayong%2C+Pinagbuhatan%2C+Pasig+City'
 };

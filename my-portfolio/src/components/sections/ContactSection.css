@@ -50,6 +50,51 @@
 .contact-item:hover {
   border-color: var(--accent);
   transform: translateX(8px);
+  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.2);
+}
+
+.location-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.location-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.05), rgba(255, 133, 85, 0.05));
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.location-item:hover::before {
+  opacity: 1;
+}
+
+.location-content {
+  flex: 1;
+}
+
+.map-link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-sm);
+  color: var(--accent);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  transition: all var(--transition-base);
+}
+
+.location-item:hover .map-link {
+  gap: var(--spacing-sm);
+}
+
+.map-link svg {
+  flex-shrink: 0;
 }
 
 .contact-icon {

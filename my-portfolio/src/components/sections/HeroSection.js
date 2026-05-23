@@ -53,7 +53,7 @@ const HeroSection = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 1 }}
           >
-            2nd-year Computer Science student at JRU, passionate about building robust 
+            2nd-year Information Technology student at JRU, passionate about building robust 
             web applications with Java, Spring Boot, and modern frontend technologies. 
             Combining academic excellence with hands-on development experience.
           </motion.p>
